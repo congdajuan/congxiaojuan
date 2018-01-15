@@ -650,5 +650,13 @@ var adz;
 
 }(adz = adz || {}, jQuery, window, document, undefined));
 
+var video1=document.getElementById("cideoPlay1");
 
+video1.onclick=function(){
+    if(video1.paused){
+        video1.play();
+    }else{
+        video1.pause();
+    }
+}
 
